@@ -1,0 +1,33 @@
+<div id="fh5co-services" data-section="services">
+  {{ with .Site.Params.services }}
+  {{ if .video }}
+
+  <div align="center"><p>Watch this video to know what to expect on your first visit</p><p><a href="images/first-vist.pdf"><b>Please click here to download the first visit form.</b></a></div>
+
+  {{ end }}
+  <div class="fh5co-video"><a href="{{ with .vidlink }}{{ . }}{{ end }}" class="popup-vimeo"><i class="icon-play2"></i></a> <span>First Visit Video</span></div>
+
+  <div class="container">
+    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+      <h2>{{ .title }}</h2>
+      <p>{{ .description | markdownify }}</p>
+    </div>
+    
+    {{ range .item }}
+    <div class="col-md-4">
+      <div class="service">
+	<div class="icon"><i class={{ .icon }}></i></div>
+	<h3><a href="{{ .url }}">{{ .title }}</a></h3>
+	<p>{{ .description | markdownify }}</p>
+
+      </div>
+    </div>
+    {{ end }}
+    
+    <div class="col-md-12 text-center">
+      <p><a href="https://clinique-du-dr-laura-benhaim.cliniko.com/bookings" class="btn btn-primary btn-outline">Book Your Appointment</a></p>
+    </div>
+    
+  </div>
+  {{ end }}
+</div> <!-- END fh5co-services -->

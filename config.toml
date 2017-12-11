@@ -1,0 +1,201 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "http://drlaurabenhaim.com/en/"
+languageCode = "en-AU"
+title = "Dr. Laura Benhaïm - Chiropractor"
+
+# Metadata
+[params]
+  author = "Dr. Laura Benhaïm - Chiropractor"
+  description = "Chiropractor at Westmount Chiropractic Clinic and Chiropratique Vieux-Montreal"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "DR. LAURA BENHAÏM"
+  description = "CHIROPRACTIC CARE FOR AN OPTIMAL YOU"
+
+# Navigation section
+[params.nav]
+  contact = "Book an appointment"
+mission = "What is Chiropractic care?"
+  services = "First Visit"
+  team = "About Laura"
+
+
+
+# Include logo instead if HOME:
+   logo = "images/logo.png"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/laura.jpg"
+
+
+  [[params.mission.item]]
+    weight = 1
+    name = "chiro"
+    title = "Chiropractic Care"
+    subtitle = ""
+    description = "<p><b><a href=\"https://clinique-du-dr-laura-benhaim.cliniko.com/bookings\">Click here to book now.</a></b></p><p>Chiropractic is a health science is based on the body’s inherent capacity to heal itself. By re-establishing your nervous system’s proper functioning, you can not only reduce pain, but you can also prevent further pain or other symptoms. In other words, chiropractic relies on the body’s ability to stay healthy without necessarily having to resort to surgery or medication. That said, your chiropractor will know when medical care is required and will be able to refer you to the right health professional to make sure you receive the care you need.</p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Homeostasis"
+    subtitle = "Chiropractic care focuses on neuro-musculo-skeletal issues, which implies that it can treat a problem a multiple levels at once."
+    description = "<p><b><a href=\"https://clinique-du-dr-laura-benhaim.cliniko.com/bookings\">Click here to book now.</a></b></p><p> Though at the core, its philosophy stems from the following axiom: the nervous system controls of the body’s systems, including one’s cells, tissues and organs. If its homeostasis– or natural equilibrium –is disturbed, then the nervous system will not function properly and health issues will develop.</p><p>The chiropractic approach is both corrective and preventive; it aims to relieve pain, but also to maintain your body’s normal equilibrium so that it can stay healthy and prevent many health problems.</p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Dre Laura Benhaïm"
+    subtitle = "It all started when I met Dr Martin Lamarre, chiroprator, who was practicing in Ville-Saint-Laurent, where I grew up. It’s as his assistant that I realized that chiropractic was a crossover between science, philosophy and the art of working with one’s hands."
+    description = "<p><b><a href=\"https://clinique-du-dr-laura-benhaim.cliniko.com/bookings\">Click here to book now.</a></b></p><p>A chiropractor can have a positive impact on their patients’ quality of life by  improving their health, reducing pain and suffering, and by listening and getting to know them. This experience convinced my to enrol to become a doctor in chiropractic at l’Université du Québec in Trois Rivières (UQTR).</p> <p>I’ve been practicing since September 2014 and am currently offering care in two Montreal clinics: Westmount Chiropractic clinic and Chiropractique Vieux-Montreal in the Old-Port.</p> <p>I am also an administrator for Chiropractors Without Borders, a not-for-profit organisation that provides free chiropractic care in developing countries. I had the privilege to participate in two missions to Bolivia.</p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "images/test.ogv"
+  title = "Our Services"
+  description = "Chiropractic adjustments not only allow you to reduce or eliminate pain, but they also prevent many injuries and help your body’s overall function. That said, many health issues may be treated through chiropractic care:"
+
+  [[params.services.item]]
+    icon = "icon-head"
+    title = "Back & Neck pain"
+    description = ""
+    url = ""
+
+  [[params.services.item]]
+    icon = "icon-bolt"
+    title = "Headaches & Vertigo"
+    description = ""
+
+  [[params.services.item]]
+    icon = "icon-futbol-o"
+    title = "Sports Injuries"
+    description = ""
+
+  [[params.services.item]]
+    icon = "icon-female"
+    title = "Fertility & Pregnancy"
+    description = ""
+
+  [[params.services.item]]
+    icon = "icon-child"
+    title = "Pediatric care"
+    description = ""
+
+  [[params.services.item]]
+    icon = "icon-group"
+    title = "Corporate packages"
+    description = ""
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/img2.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/img3.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/img4.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/img5.jpg"
+
+
+# Team section
+[params.team]
+  enable = true
+  title = "About Laura"
+  description = "I’ve been practicing since September 2014 and am currently offering care in two Montreal clinics: Westmount Chiropractic clinic and Clinique Synergek in the Old-Port.<br><br>I am also an administrator for Chiropractors Without Borders, a not-for-profit organisation that provides free chiropractic care in developing countries."
+
+  [[params.team.item]]
+    name = "Dre Laura Benhaïm"
+    position = "Chiropractor"
+    description = "Ever since I was young, I knew that I wanted to work in health care. My desire to contribute to people’s well-being while building strong relationships with my patients lead me to chiropractic care."
+    img = "images/img10.jpg"
+    facebook = "https://www.facebook.com/chirowestmount/"
+    linkedin = "https://ca.linkedin.com/in/laura-benhaim-5271aaa3"
+instagram = "https://www.instagram.com/chiro_westmount/"
+web = "http://cpress.org"
+
+
+
+  [[params.team.item]]
+    name = "Clinique Chiropratique Westmount"
+    position = "245 Victoria Ave #525, Westmount, QC H3Z 2M5, Canada"
+    description = "<a href=\"https://clinique-du-dr-laura-benhaim.cliniko.com/bookings\"><b>Book now</b></a><br>Monday:          3pm to 8pm <br>Wednesday:   9am to 2pm <br>Thursday:        2pm to 8pm<br>Alternate Friday: 10am to 2pm"
+    img = "images/map.png"
+    facebook = "https://www.facebook.com/chirowestmount/"
+    instagram = "https://www.instagram.com/chiro_westmount/"
+    linkedin = "https://ca.linkedin.com/in/laura-benhaim-5271aaa3"
+
+[[params.team.item]]
+    name = "Chiropratique Vieux-Montreal"
+    position = "500 place-d'armes, suite 1800, Westmount, QC H3Z 2M5, Canada"
+    description = "<a href=\"https://clinique-du-dr-laura-benhaim.cliniko.com/bookings\"><b>Book now</b></a><br>Monday: 9am to 2pm<br>Tuesday: 3pm to 8pm<br>Wednesday: 3pm to 8pm<br>Alternate Friday: 10am to 2pm"
+    img = "images/old-montreal.png"
+    facebook = "https://www.facebook.com/chirowestmount/"
+    instagram = "https://www.instagram.com/chiro_westmount/"
+    linkedin = "https://ca.linkedin.com/in/laura-benhaim-5271aaa3"
+
+
+  # [[params.team.item]]
+  #   name = "John Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Book an Appointment at One of My Locations"
+  message = "Not sure yet?<br>Call us: <a href=\"tel:514-303-2800\">514-303-2800</a><br>Or, email us your questions:<br> <a href=\"mailto:chirowestmout@gmail.com\">chirowestmount@gmail.com</a><br><hr><b>Chiropratique Vieux-Montreal</b><br>500 place-d'armes, suite 1800<br>Montreal, QC  H2Y 2W2 <br><b>Hours</b><br>Monday: 3pm to 8pm <br>Wednesday: 9am to 2pm <br>Thursday: 2pm to 8pm <br><br><hr><b>Clinique Chiropratique Westmount</b> <br>245 Victoria Ave #525, Westmount, QC<br><b>Hours</b></a><br>Monday:  3pm to 8pm <br>Wednesday:   9am to 2pm <br>Thursday:        2pm to 8pm<br>Alternate Friday: 10am to 2pm"
+
+
+
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p> <a href=\"tel:514-303-2800\">514-303-2800</a><br> <a href=\"mailto:chirowestmout@gmail.com\">chirowestmount@gmail.com</a><br><small>&copy; 2017</small></p>"
+    facebook = "https://www.facebook.com/chirowestmount/"
+    instagram = "https://www.instagram.com/chiro_westmount/"
+    linkedin = "https://ca.linkedin.com/in/laura-benhaim-5271aaa3"

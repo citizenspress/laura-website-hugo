@@ -1,0 +1,16 @@
+<div id="fh5co-contact" data-section="contact">
+  <div class="container">
+    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+      {{ with .Site.Params.contact }}
+      <h2>{{ .title }}</h2>
+      <p>{{ .message | markdownify }}</p>
+      {{ end }}
+    </div>
+
+    <div class="col-md-12 text-center">
+      <p><a href="images/formulaire-eng.pdf" class="btn btn-primary btn-outline">Book Your Appointment</a></p>
+    </div>
+    
+
+  </div>
+</div>
