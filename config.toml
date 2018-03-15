@@ -47,7 +47,7 @@ mission = "What is chiropractic care?"
   [[params.mission.item]]
     weight = 2
     name = "analysis"
-    title = "Homeostasis"
+    title = "Corrective and preventative care"
     subtitle = "Chiropractic care focuses on neuro-musculo-skeletal issues, which implies that it can treat a problem a multiple levels at once."
     description = "<p><b><a href=\"https://clinique-du-dr-laura-benhaim.cliniko.com/bookings\">Click here to book now.</a></b></p><p> Though at the core, its philosophy stems from the following axiom: the nervous system controls of the body’s systems, including one’s cells, tissues and organs. If its homeostasis– or natural equilibrium –is disturbed, then the nervous system will not function properly and health issues will develop.</p><p>The chiropractic approach is both corrective and preventive; it aims to relieve pain, but also to maintain your body’s normal equilibrium so that it can stay healthy and prevent many health problems.</p>"
 
