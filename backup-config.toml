@@ -185,7 +185,7 @@ web = "http://cpress.org"
 [params.contact]
   enable = true
   title = "Book an Appointment at One of My Locations"
-  message = "Not sure yet?<br>Call us: <a href=\"tel:514-303-2800\">514-303-2800</a><br>Or, email us your questions:<br> <a href=\"mailto:chirowestmout@gmail.com\">chirowestmount@gmail.com</a><br><hr><b>Chiropratique Vieux-Montreal</b><br>500 place-d'armes, suite 1800<br>Montreal, QC  H2Y 2W2 <br><b>Hours</b><br>Monday: 9am to 2pm<br>Tuesday: 3pm to 8pm<br>Thursday: 2pm to 8pm<br>Alternate Friday: 10am to 2pm<br><br><hr><b>Clinique Chiropratique Westmount</b> <br>245 Victoria Ave #525, Westmount, QC<br><b>Hours</b></a><br>Monday:          3pm to 8pm <br>Wednesday: 9am to 8pm <br>Alternate Friday: 10am to 2pm"
+  message = "Not sure yet?<br>Call us: <a href=\"tel:514-303-2800\">514-303-2800</a><br>Or, email us your questions:<br> <a href=\"mailto:chirowestmount@gmail.com\">chirowestmount@gmail.com</a><br><hr><b>Chiropratique Vieux-Montreal</b><br>500 place-d'armes, suite 1800<br>Montreal, QC  H2Y 2W2 <br><b>Hours</b><br>Monday: 9am to 2pm<br>Tuesday: 3pm to 8pm<br>Thursday: 2pm to 8pm<br>Alternate Friday: 10am to 2pm<br><br><hr><b>Clinique Chiropratique Westmount</b> <br>245 Victoria Ave #525, Westmount, QC<br><b>Hours</b></a><br>Monday:          3pm to 8pm <br>Wednesday: 9am to 8pm <br>Alternate Friday: 10am to 2pm"
 
 
 
